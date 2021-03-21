@@ -1,0 +1,47 @@
+html{
+    font-size: 10px;
+  }  
+  body{
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    background-color:burlywood;
+  }
+.titleMain {
+    background-color:burlywood;
+    border-radius:100px;
+  }
+  #main {
+      padding: 20px;
+      margin: 30px 8px;
+      
+         }
+  #title{
+        font-size: 5rem;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: underline;
+        margin-bottom: auto;
+  }
+  #title-caption{
+      text-align:center;
+      font-size: 2.0rem;
+  }
+  #image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+  }
+     #img-div {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    background-color:antiquewhite;
+    border-radius:12px;
+    padding: 2%;
+
+         }
+  #img-caption{
+    
+  } 
