@@ -29,11 +29,12 @@ html{
   }
   #image{
     display: block;
-    max-width: 100%;
-    height: auto;
-    margin: auto;
+    max-width: 269px;
+    max-height: 365px;
+    margin-left: auto;
+    margin-right: auto;
   }
-     #img-div {
+  #img-div {
     display: block;
     max-width: 100%;
     margin: auto;
@@ -41,7 +42,19 @@ html{
     border-radius:12px;
     padding: 2%;
 
-         }
+  }
   #img-caption{
-    
+    font-size: 1.7rem;
+    text-align: center;
   } 
+  #tribute-info{
+    margin-left:240px;
+    font-size:1.5rem;
+    list-style-position:inside; 
+    text-align:justify;
+    list-style:square;
+  }
+  #tribute-link{
+    text-align:center;
+    font-size:1.5rem;
+  }
