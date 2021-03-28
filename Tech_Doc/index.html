@@ -24,19 +24,19 @@
         <a class="nav-link" href="#Javascript_and_Java"><button>Javascript and Java</button></a>
         <a class="nav-link" href="#Hello_world"><button>Hello world</button></a>
         <a class="nav-link" href="#Variables"><button>Variables</button></a>
-        <a class="nav-link" href="#Declaring_variables"><button>Delcaring variables</button></a>
+        <a class="nav-link" href="#Declaring_variables"><button>Declaring variables</button></a>
         <a class="nav-link" href="#Variable_scope"><button>Variable scope</button></a>
         <a class="nav-link" href="#Global_variables"><button>Global variables</button></a>
         <a class="nav-link" href="#Constants"><button>Constants</button></a>
         <a class="nav-link" href="#Data_types"><button>Data types</button></a>
-        <a class="nav-link" href="#if_else"><button>if...else statments</button></a>
+        <a class="nav-link" href="#if_else_statement"><button>if_else statement</button></a>
         <a class="nav-link" href="#while_statement"><button>while statement</button></a>
-        <a class="nav-link" href="#Function_declarations"><button>Function delcarations</button></a>
+        <a class="nav-link" href="#Function_declarations"><button>Function declarations</button></a>
         <a class="nav-link" href="#Reference"><button>Reference</button></a>
     </nav>
     <main id="main-doc" class="flexContent">
-    <section class="main-section" id="Introduction">
-    <article section="Introduction"><header>Introduction</header>
+    <section class="main-section" id="Introduction"> <header name="Introduction">Introduction</header>
+    <article section="Introduction">
     <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
     <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:</p>
     <ul>
@@ -46,7 +46,8 @@
     </article>
   </section>
   <section class="main-section" id="What_you_should_already_know">
-    <article><header>What you should already know</header>
+    <header name="What_you_should_already_know">What you should already know</header>
+    <article>
       <p>This guide assumes you have the following basic background:</p>
       <ul>
         <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
@@ -57,7 +58,8 @@
     </article>
   </section>
   <section class="main-section" id="Javascript_and_Java">
-    <article><header>JavaScript and Java</header>
+    <header name="Javascript_and_Java">JavaScript and Java</header>
+    <article>
       <p>JavaScript and Java are similar in some ways but fundamentally different in some others. 
       <p>The JavaScript language resembles Java but does not have Java's static typing and strong type checking. </p>
       <p>JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.</p>
@@ -68,7 +70,7 @@
     </article>
   </section>
   <section class="main-section" id="Hello_world">
-    <article><header>Hello world</header>
+    <header name="#Hello_world">Hello world</header><article>
       <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
       <code>function greetMe(yourName) { alert("Hello " + yourName); }
             greetMe("World");</code>
@@ -76,8 +78,8 @@
     </article>
   </section>
   <section class="main-section" id="Variables">
+    <header name="Variables">Variables</header>
     <article>
-      <header>Variables</header>
         <p>You use variables as symbolic names for values in your application. 
           The names of variables, called identifiers, conform to certain rules.</p>
         <p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); 
@@ -89,7 +91,7 @@
     </article>  
    </section>
   <section class="main-section" id="Declaring_variables">
-    <article><header>Declaring variables</header>
+    <header name="Declaring_variables">Declaring variables</header><article>
       <p>You can declare a variable in three ways:</p>
       <uL>
         <li>With the keyword var. For example,</li>
@@ -104,7 +106,7 @@
     </article>
   </section>
   <section class="main-section" id="Variable_scope">
-    <article><header>Variable scope</header>
+    <header name="Variable_scope">Variable scope</header><article>
       <p>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. </p>
       <p>When you declare a variable within a function, it is called a local variable, because it is available only within that function.</p>
       <p>JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) that the block resides within. </p>
@@ -115,14 +117,14 @@
     </article>
   </section>
   <section class="main-section" id="Global_variables">
-    <article><header>Global variables</header>
+    <header name="Global_variables">Global variables</header><article>
       <p>Global variables are in fact properties of the global object. In web pages the global object is window, so you can set and access global variables using the window.variable syntax.</p>
       <p>Consequently, you can access global variables declared in one window or frame from another window or frame by specifying the window or frame name. </p>
       <p>For example, if a variable called phoneNumber is declared in a document, you can refer to this variable from an iframe as parent.phoneNumber.</p>
     </article>
   </section>
   <section class="main-section" id="Constants">
-    <article><header>Constants</header>
+    <header name="Constants">Constants</header><article>
       <p>You can create a read-only, named constant with the const keyword. 
         The syntax of a constant identifier is the same as for a variable identifier: </p>
         <p>it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric, or underscore characters.</p>
@@ -144,7 +146,7 @@
     </article>       
   </section>
   <section class="main-section" id="Data_types">
-    <article><header>Data types</header>
+    <header name="Data_types">Data types</header><article>
     <p>The latest ECMAScript standard defines seven data types:</p>
         <ul>Six data types that are primitives:
             <p><li>Boolean. true and false.</li></p>
@@ -160,8 +162,8 @@
               You can think of objects as named containers for values, and functions as procedures that your application can perform.</p>
     </article>
   </section>
-<section class="main-section" id="if_else">
-  <article><header>if...else statement</header>
+<section class="main-section" id="if_else_statement">
+  <header name="if_else_statement">if else statement</header><article>
     <p>Use the if statement to execute a statement if a logical condition is true. 
       Use the optional else clause to execute a statement if the condition is false. </p>
       <p>An if statement looks as follows:</p>
@@ -193,7 +195,7 @@
   </article>
 </section>
 <section class="main-section" id="while_statement">
-  <article><header>while statement</header>
+  <header name="while_statement">while statement</header><article>
     <p>A while statement executes its statements as long as a specified condition evaluates to true. 
       A while statement looks as follows:</p>
     <code>while (condition) statement</code>
@@ -212,7 +214,7 @@
   </article>
       </section>
 <section class="main-section" id="Function_declarations">
-<article><header>Function declarations</header>
+  <header name="Function_declarations">Function declarations</header><article>
   <p>A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:</p>
   <uL>
       <li>The name of the function.</li>
@@ -231,7 +233,7 @@
 </article>  
 </section>
   <section class="main-section" id="Reference">
-    <article><header>Reference</header>
+    <header name="Reference">Reference</header><article>
     <p>All the documentation in this page is taken from MDN</p>
     </article>
   </section>  
