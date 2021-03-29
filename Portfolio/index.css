@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-size: auto;
+  background-color: black;
+  /* background-image: linear-gradient(45deg, rbga(0 0 0 0), rbga(0 0 0 0.3)); */
+  display: flex;
+  flex-direction: column;
+}
+a{
+  text-decoration: underline;
+  cursor: pointer;
+  color: ivory;
+  font-family: cursive;
+}
+.project-tile a{
+  color:ivory;
+  text-decoration: none;
+  display: block;
+  background-color: #000;
+  cursor: pointer;
+}
+#welcome-section{
+  display: block;
+  height:100vh;
+  color: ivory;
+  text-align: center;
+  margin-top: 5vh;
+  justify-content: center;
+  align-items: center;
+  
+}
+#projectsContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  height:400px;
+  background-color: #666;
+  background-image: linear-gradient(#000,#666);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+
+}
+#projects{
+  text-align: center;
+  }
+.project-tile{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 13.33px;
+  height:350px;
+  width:350px;
+  padding: 5px;
+  margin: 4px;
+  background-color: #444;
+  /* margin: 20px; */
+  /* padding:20px; */
+  /* border: 10px, solid, indianred; */
+  /* border-style:double; */
+  color:ivory;
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+#navbar{
+  position:fixed;
+  width:100vw;
+  /* background-image: linear-gradient(to left, rbga(205,92,92,1), rbga(205,92,92,0)); */
+  /* background-size: 5vh; */
+  background-color: indianred;
+}
+#navbar a{
+  /* display: inline-block; */
+  font-family: Arial, Helvetica, sans-serif;
+  float:right;
+  border: 1.5px solid black;
+  font-size: 2rem;
+  text-align: center;
+  padding:10px;
+  width:10vw;
+  min-height: 30px;
+  min-width: fit-content;
+  height:5vh;
+  background-color: indianred;
+  color:whitesmoke;
+  text-decoration: none;
+}
+#navbar a:hover{
+  background-color: rgb(231, 61, 61);  
+  border-radius: 4px;
+  font-weight:bolder;
+}
+#profile-link{
+  text-align: center;
+  font-size: 1.2rem;
+  }
+#profile-link a{
+  text-decoration: underline;
+  cursor: pointer;
+  color: ivory;
+  font-family: cursive;
+}
+@media only screen and (max-width:400px){
+  body{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #navbar a{
+    float:none;
+    font-size: auto;
+    border:none;
+    font-size: 1rem;
+  }
+  #navbar{
+    position:relative;
+  }
+}
